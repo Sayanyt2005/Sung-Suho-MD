@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "suho~1zN0xBhS#9li_2hxeFDhPJjppfOo1pqwuKLiOxaFirvuCmgx7x-Y",
+    SESSION_ID: process.env.SESSION_ID || "suho~xjkgBBgB#2Z--CujFUQgjaRGElpmd_taJ4cgxL12zjVL3rleYG-k",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -39,7 +39,7 @@ module.exports = {
     WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
-    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
     // make true to know who dismiss or promoted a member in group
 
     ANTI_LINK: process.env.ANTI_LINK || "true",
